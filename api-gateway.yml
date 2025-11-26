@@ -3,7 +3,6 @@ spring:
     name: api-gateway
 
   cloud:
-  cloud:
     gateway:
       routes:
         - id: user-service
