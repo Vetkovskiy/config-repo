@@ -25,7 +25,11 @@ spring:
 
 notification:
   from-email: Fova885@gmail.com
-
+  
+kafka:
+  topic:
+    user-events: user.events
+    
 logging:
   level:
     root: INFO
