@@ -4,8 +4,6 @@ server:
 spring:
   application:
     name: notification-service
-  config:
-    import: optional:classpath:application-local-secret.properties
 
   kafka:
     bootstrap-servers: localhost:9092
