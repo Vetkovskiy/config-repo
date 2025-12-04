@@ -24,7 +24,7 @@ spring:
       mail.smtp.writetimeout: 5000
 
 notification:
-  from-email: Fova885@gmail.com
+  from-email: ${NOTIFICATION_FROM_EMAIL}
   
 kafka:
   topic:
