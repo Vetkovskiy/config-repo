@@ -1,0 +1,23 @@
+server:
+  port: 8888
+
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres:5432/userdb
+    username: admin
+    password: admin123
+  
+  kafka:
+    bootstrap-servers: kafka:9092
+
+eureka:
+  instance:
+    prefer-ip-address: false
+    hostname: user-service
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-server:8761/eureka/
+
+kafka:
+  topic:
+    user-events: user.events
